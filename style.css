@@ -277,7 +277,10 @@ html {
     font-weight: bold;
     font-family: 'Zen Loop', cursive;
 }
-
+#cuisines{
+    /* background-color: red; */
+    height: 60vw;
+}
 #cuisines_boxes{
     width: 100vw;
     display: flex;
@@ -336,4 +339,23 @@ html {
     text-align:center;
     font-weight: bold;
     font-family: 'Zen Loop', cursive;
+}
+#art{
+    width: 100vw;
+}
+#art_boxes{
+    width: 100vw;
+    height: 200vh;
+    background-color:rgb(86 190 228 / 35%);
+}
+#dance_boxes{
+    width: 100vw;
+    display: flex;
+    /* background-color: red; */
+}
+#dance_boxes img{
+    width: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
