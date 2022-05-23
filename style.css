@@ -337,3 +337,24 @@ html {
     font-weight: bold;
     font-family: 'Zen Loop', cursive;
 }
+.foot_back {
+    width: 100vw;
+    height: 13vh;
+    background-color: rgb(86 190 228 / 35%);
+    border-radius: 0px 0px 50px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.foot {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(54 151 181 / 71%);
+    position: relative;
+    top: 0;
+    border-radius: 0px 0px 70px 70px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
