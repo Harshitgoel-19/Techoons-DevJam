@@ -360,27 +360,43 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
-/* ======= */
-.foot_back {
-    width: 100vw
-    height: 13vh
-    background-color: rgb(86 190 228 / 35%) 
-    border: 2px solid red
-    /* border-radius: 0px 0px 50px 50px */
-    /* position: sticky */
-    /* top: 0 */
-    /* z-index: 1 */
-}
-
-.foot {
+footer{
     width: 100vw;
-    height: 10vh;
-    /* background-color: rgb(54 151 181 / 71%); */
-    position: relative;
-    top: 0;
-    /* border-radius: 0px 0px 70px 70px; */
+    background-color:rgb(18, 46, 91) ;
+    height: 15vw;
+}
+.footer_back{
+    width: 100vw;
+    background-color:rgba(86, 190, 228, 0.838) ;
+    height: 15vw;
+}
+footer .foot{
     display: flex;
-    align-items: center;
-    z-index: 1;
-/* >>>>>>> 3f8da4f458d74a3c63582dfd30fa847d9208307a */
+}
+footer .logo{
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    width: 15vw;
+    margin-top: 10px;
+}
+footer .logo img{
+    width: 15vw;
+}
+footer .icons{
+    position: absolute;
+    right: 7vw;
+    margin-top: 10px;
+}
+footer .icons .fa{
+    color: white;
+    font-size: 2.5vw;
+    margin: 10px;
+}
+footer .foot1 p{
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+    padding-left: 20px;
+    padding-right: 30px;
 }
