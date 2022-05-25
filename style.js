@@ -22,6 +22,7 @@ setInterval(function () {
     i = 0;
   }
 }, 2000);
+
 function city() {
   let s1 = document.getElementById("states").value;
   //using switch for cities drop-down
@@ -170,27 +171,37 @@ function city() {
       optioncities = ["--Select City--", "", "", "", "", ""];
       break;
   }
-  // if(s1=="uttar")
-  // {
-  //     var optioncities=['Lucknow','Varanasi','Prayagraj','Ayodhya','Noida'];
-  // }
-  // else{
-  //     var optioncities=['--Select City--'];
-  //}
+
   var string = "";
-  var cityvalue = document.createElement("option");
+  // var cityvalue = document.createElement("option");
   for (j = 0; j < optioncities.length; ++j) {
     string =
       string +
       "<option value=" +
       optioncities[j] +
-      ">" +
+      "onclick=load(value)>" +
       optioncities[j] +
       "</option>";
   }
   document.getElementById("cities").innerHTML = string;
 }
 
+function load(){
+  var select = document.getElementById('cities');
+	var s = select.options[select.selectedIndex].text;
+  switch (s) {
+    case "Lucknow":
+      location.href='lucknow.html'
+      break;
+    case "Varanasi":
+      location.href='varanasi.html'
+      break;
+    case "home":
+      location.href='index.html'
+      break;
+  }
+    load();
+}
 var b = document.getElementById("nav_items");
 var z = document.getElementById("openmenu");
 function showmenu() {
