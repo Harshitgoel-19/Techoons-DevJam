@@ -251,7 +251,7 @@ html {
 .attraction_boxes {
     background-color: floralwhite;
     width: 16vw;
-    height: 43vw;
+    height: 45vw;
     margin: 5vw 2px 10px 2px;
     border: 1.7px solid black;
     border-radius: 40px;
@@ -382,6 +382,7 @@ html {
 }
 .cuisines_boxes_2 img{
     width: 30vw;
+    height: 20vw;
     border-radius: 20px;
     border: 2px solid black;
 }
@@ -397,7 +398,7 @@ html {
 }
 #art_boxes{
     width: 100vw;
-    height: 310vh;
+    height: 340vh;
     background-color:rgb(86 190 228 / 35%);
 }
 #dance_boxes{

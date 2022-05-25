@@ -191,13 +191,19 @@ function load(){
 	var s = select.options[select.selectedIndex].text;
   switch (s) {
     case "Lucknow":
-      location.href='lucknow.html'
+      location.href='States/UP/lucknow.html'
       break;
     case "Varanasi":
-      location.href='varanasi.html'
+      location.href='States/UP/varanasi.html'
       break;
-    case "home":
-      location.href='index.html'
+    case "Prayagraj":
+      location.href='States/UP/prayagraj.html'
+      break;
+    case "Ayodhya":
+      location.href='States/UP/ayodhya.html'
+      break;
+    case "Noida":
+      location.href='States/UP/noida.html'
       break;
   }
     load();
