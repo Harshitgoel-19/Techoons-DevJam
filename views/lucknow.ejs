@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incredible India| Lucknow</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:wght@200&family=Macondo&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Zen+Loop&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">   
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="nav_back">
+        <div class="nav">
+            <div class="logo">
+                <a href="/"><img src="Images/logo.svg" alt="logo"></a>
+            </div>
+            <div class="selectbox">
+                <select name="states" id="states" onchange="city()">
+                    <option value="">--Select State--</option>
+                    <option value="andaman">Andaman and Nicobar Islands</option>
+                    <option value="andhra">Andhra Pradesh</option>
+                    <option value="arunachal">Arunachal Pradesh</option>
+                    <option value="assam">Assam</option>
+                    <option value="bihar">Bihar</option>
+                    <option value="chandigarh">Chandigarh</option>
+                    <option value="chhattishgarh">Chhattishgarh</option>
+                    <option value="dadra">Dadra and Nagar Haveli</option>
+                    <option value="daman">Daman and Diu</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="goa">Goa</option>
+                    <option value="gujarat">Gujarat</option>
+                    <option value="haryana">Haryana</option>
+                    <option value="himachal">Himachal Pradesh</option>
+                    <option value="jammu">Jammu & Kashmir</option>
+                    <option value="jharkhand">Jharkhand</option>
+                    <option value="karnataka">Karnataka</option>
+                    <option value="kerala">Kerala</option>
+                    <option value="ladakh">Ladakh</option>
+                    <option value="lakshadweep">Lakshadweep</option>
+                    <option value="madhya">Madhya Pradesh</option>
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="manipur">Manipur</option>
+                    <option value="meghalaya">Meghalaya</option>
+                    <option value="mizoram">Mizoram</option>
+                    <option value="nagaland">Nagaland</option>
+                    <option value="odisha">Odisha</option>
+                    <option value="punjab">Punjab</option>
+                    <option value="rajasthan">Rajasthan</option>
+                    <option value="sikkim">Sikkim</option>
+                    <option value="tamil">Tamil Nadu</option>
+                    <option value="telangana">Telangana</option>
+                    <option value="tripura">Tripura</option>
+                    <option value="uttar">Uttar Pradesh</option>
+                    <option value="uttarakhand">Uttarakhand</option>
+                    <option value="west">West Bengal</option>
+                </select>
+                <select name="cities" id="cities" onchange="load()">
+                    <option value="home">--Select City--</option>
+                </select>  
+                <!-- <button id="btn">Go</button>  -->
+            </div>
+            <div class="items" id="nav_items">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <a href="#about">
+                        <li>About</li>
+                    </a>
+                    <a href="#attractions">
+                        <li>Attractions</li>
+                    </a>
+                    <a href="#cuisines">
+                        <li>Cuisines</li>
+                    </a>
+                    <a href="#art">
+                        <li>Art/Cultures</li>
+                    </a>
+                </ul>
+                
+            </div>
+            <div id="open_menu">
+                <i class="fa fa-bars" id="openmenu" onclick="showmenu()"></i>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div id="about">
+            <h1 class="headings">Lucknow</h1>
+            <p class="content">A melting pot of art, culture, cuisine and architecture, the bustling city of Lucknow, the capital of Uttar Pradesh, preserves its essence of grandeur in its kaleidoscopic experiences. From a vibrant culinary scene and exquisite historical monuments to its rich art and culture and vestiges of colonial charm, the city of nawabs, as it is popularly called, is as welcoming as is the warmth of its people.
+
+                As soon as you arrive at the historically-eminent and gorgeous Charbagh Railway Station, the city of Lucknow starts unfolding, revealing its charm at every turn. In the bylanes of old Lucknow, history whispers lost tales, while in the broad avenues of the newer suburbs, the cosmopolitan heart of the city throbs. From the grand gateways of the popular Bara Imambara to the ornate structure of Rumi Darwaza, inspired by a Constantinople gate, the city's heritage monuments unravel their mystery. While these monuments inspire awe, it's the bustling bazaars and craft galis of the city where its true soul can be found. Complementing this energetic liveliness, lie serene temples, mosques and churches.
+                <br>
+                According to a legend, the city was named after Lord Rama's younger brother Lakshmana, who had a palace in the area. Historically, the city was the seat of the replendant nawabs, who ruled the region for centuries. Most of the credit, however, goes to Nawab Asaf-ud-Daula, who moved the capital of Awadh from Faizabad to the banks of the Gomti river in 1775, sowed the seed for Lucknow’s growth. Rising in prominence, the nawabs made Lucknow the epicentre of art, culture and music. They also commissioned some of the most aesthetic buildings in India and artisans flourished. Everyone, from architects who designed the lovely structures of the city, to the chefs who created the kebabs we love so much today, prospered under the rule of the nawabs. 
+               </p>
+        </div>
+        <div id="attractions">
+                <h1 class="headings">Popular in Lucknow</h1>
+                <div class="attractions">
+                    <div class="attraction_boxes" style="height:30vw ;"><img src="../../Images/lucknowattract-1.jpeg" alt=""><h3 class="attraction_heading">Charbagh</h3><p class="attraction_content">Charbagh Railway Station, one of the two main railway stations in Lucknow, is an architectural marvel that features the best of Rajasthani and Mughal styles, mixed with British influences.</p></div>
+                    <div class="attraction_boxes" style="height:30vw ;"><img src="../../Images/lucknowattract-2.jpeg" alt=""><h3 class="attraction_heading">Rumi Darwaza</h3><p class="attraction_content">Identical in design to an ancient gate in Constantinople in Turkey, Rumi Darwaza was built in the 1780s by Nawaz Asaf-ud-Daula, an Awadhi nawab.</p></div>
+                    <div class="attraction_boxes" style="height:30vw ;"><img src="../../Images/lucknowattract-3.jpeg" alt=""><h3 class="attraction_heading">Nawab Wajid Ali Shah Zoological Garden</h3><p class="attraction_content">Spread over a vast area of 29 hectare, the zoo, popularly called Lucknow Zoo. This zoological garden is home to carnivores like tiger, white tiger, fishing cat, Indian wolf, leopard, hybrid lion.</p></div>
+                    <div class="attraction_boxes" style="height:30vw ;"><img src="../../Images/lucknowattract-4.jpeg" alt=""><h3 class="attraction_heading">Hussainabad Imambara Or Chhota Imambara</h3><p class="attraction_content">Lucknow is full of stellar examples of Nawabi architecture, but there are few that compare to the Chhota Imambara, built by Nawab Muhammad Ali Shah in 1838.</p></div>
+                    <div class="attraction_boxes" style="height:30vw ;"><img src="../../Images/lucknowattract-5.jpeg" alt=""><h3 class="attraction_heading">Dudhwa National Park</h3><p class="attraction_content">Dudhwa Tiger Reserve is one of the most protected sanctuaries in India, comprising two distinct zones – Bhabar, characterised by hills and rocky terrain, and Terai, distinguished by thick grasslands.</p></div>
+                    <div class="attraction_boxes" style="height:30vw ;"><img src="../../Images/lucknowattract-6.jpeg" alt=""><h3 class="attraction_heading">Naimisharanya</h3><p class="attraction_content">Located on the banks of River Gomti, the sacred place of Naimisharanya is linked to Lord Brahma, Lord Vishnu, Goddess Sati and Lord Shiva.</p></div>
+                </div>
+        </div>
+        <div id="cuisines">
+            <h1 class="headings">Cuisines</h1>
+            <div id="cuisines_boxes">
+                <div class="cuisines_boxes_1">
+                    <img src="../../Images/lucknowfood-1.jpeg" alt="">
+                    <p class="cuisine_heading">Nargisi Kofta</p>
+                    <img src="../../Images/lucknowfood-2.jpeg" alt="">
+                    <p class="cuisine_heading">Lakhnavi Biryani</p>
+                </div>
+                <div class="cuisines_boxes_2">
+                    <img src="../../Images/lucknowfood-3.jpeg" alt="">
+                    <p class="cuisine_heading">Patili Kebabs</p>
+                </div>
+                <div class="cuisines_boxes_3">
+                    <img src="../../Images/lucknowfood-4.jpeg" alt="">
+                    <p class="cuisine_heading">Pasanda Kebabs</p>
+                    <img src="../../Images/lucknowfood-5.jpeg" alt="">
+                    <p class="cuisine_heading">Paneer Gulnar Kebab</p>
+                </div>
+            </div>   
+        </div>
+        <div id="art" style="height: 55vw;">
+            <h1 class="headings">Art & Cultures</h1>
+            <div class="folkmusic_box">
+                <div id="folkmusic_boxes">
+                    <div class="attraction_boxesss" style="margin-top:2vw; width: 32vw;">
+                        <img src="../../Images/lucknowart-1.jpeg" alt="" style="width:30vw; height:auto;">
+                        <h3 class="attraction_heading">Chikankari</h3>
+                        <p class="attraction_content">A delicate hand embroidery technique done on fabrics like chiffon, muslin, organza, organdie and silk, chikankari is one of the most important crafts in Lucknow. The word 'chikan' means embroidery, and this form of art incorporates 36 different stitching techniques.</p>
+                    </div>
+                    <div class="attraction_boxesss" style="margin-top:2vw; width: 32vw;">
+                        <img src="../../Images/lucknowart-2.jpeg" alt="" style="width:30vw; height:auto;">
+                        <h3 class="attraction_heading">Zardozi</h3>
+                        <p class="attraction_content">This signature embroidery art of Lucknow has been around for centuries and has been been accorded a Geographical Indication tag (GI). Lucknow is the primary centre for zardozi, and apparels featuring this embroidery can be found in well-known shops of Chowk area, as well as other bazaars in the city. In Persian, 'zardozi' means gold embroidery.</p>
+                    </div>
+                    <div class="attraction_boxesss" style="margin-top:2vw; width: 32vw;">
+                        <img src="../../Images/lucknowart-3.jpeg" alt="" style="width:30vw; height:auto;">
+                        <h3 class="attraction_heading">Perfumes/Attar</h3>
+                        <p class="attraction_content">The city of Lucknow is known for its fine perfumes that are available in beautiful bottles of cut-glass work. Perfumers in Lucknow make delicate and lasting fragrances using various aromatic herbs, spices, sandal oil, musk, essence of flowers, and leaves. Attar, derived from Persian word 'atr' means fragrance.</p>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <footer>
+            <div class="foot">
+                <div class="logos">
+                    <a href="/"><img src="Images/logo1.svg" alt="logo"></a>
+                </div>
+                <div class="icons">
+                    <a href="https://www.facebook.com/incredibleindia" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/incredibleindia/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/incredibleindia/" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/incredibleindia" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                </div>
+            </div>
+            <div class="foot1">
+                <p>India has a myriad of landscapes, great heritage and culture, varied flora and fauna. The country is the most preferred tourist destinations for tourists from all across the world for its picturesque landscapes, spectacular waterfalls, habitat of the country's largest tiger reserve and home to the warmest people on earth.</p>
+                <hr>
+                <p style="font-size:1.5vw ;"><i class="fa fa-copyright"> Harshit Goel, Gourav Garg, Ayush Kumar Nishod</i></p>
+            </div>
+    </footer>
+    <script src="js/style.js"></script>
+</body>
+
+</html>

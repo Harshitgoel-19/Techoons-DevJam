@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incredible India| Prayagraj</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:wght@200&family=Macondo&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Zen+Loop&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">   
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="nav_back">
+        <div class="nav">
+            <div class="logo">
+                <a href="/"><img src="Images/logo.svg" alt="logo"></a>
+            </div>
+            <div class="selectbox">
+                <select name="states" id="states" onchange="city()">
+                    <option value="">--Select State--</option>
+                    <option value="andaman">Andaman and Nicobar Islands</option>
+                    <option value="andhra">Andhra Pradesh</option>
+                    <option value="arunachal">Arunachal Pradesh</option>
+                    <option value="assam">Assam</option>
+                    <option value="bihar">Bihar</option>
+                    <option value="chandigarh">Chandigarh</option>
+                    <option value="chhattishgarh">Chhattishgarh</option>
+                    <option value="dadra">Dadra and Nagar Haveli</option>
+                    <option value="daman">Daman and Diu</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="goa">Goa</option>
+                    <option value="gujarat">Gujarat</option>
+                    <option value="haryana">Haryana</option>
+                    <option value="himachal">Himachal Pradesh</option>
+                    <option value="jammu">Jammu & Kashmir</option>
+                    <option value="jharkhand">Jharkhand</option>
+                    <option value="karnataka">Karnataka</option>
+                    <option value="kerala">Kerala</option>
+                    <option value="ladakh">Ladakh</option>
+                    <option value="lakshadweep">Lakshadweep</option>
+                    <option value="madhya">Madhya Pradesh</option>
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="manipur">Manipur</option>
+                    <option value="meghalaya">Meghalaya</option>
+                    <option value="mizoram">Mizoram</option>
+                    <option value="nagaland">Nagaland</option>
+                    <option value="odisha">Odisha</option>
+                    <option value="punjab">Punjab</option>
+                    <option value="rajasthan">Rajasthan</option>
+                    <option value="sikkim">Sikkim</option>
+                    <option value="tamil">Tamil Nadu</option>
+                    <option value="telangana">Telangana</option>
+                    <option value="tripura">Tripura</option>
+                    <option value="uttar">Uttar Pradesh</option>
+                    <option value="uttarakhand">Uttarakhand</option>
+                    <option value="west">West Bengal</option>
+                </select>
+                <select name="cities" id="cities" onchange="load()">
+                    <option value="home">--Select City--</option>
+                </select>  
+                <!-- <button id="btn">Go</button>  -->
+            </div>
+            <div class="items" id="nav_items">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <a href="#about">
+                        <li>About</li>
+                    </a>
+                    <a href="#attractions">
+                        <li>Attractions</li>
+                    </a>
+                    <a href="#cuisines">
+                        <li>Cuisines</li>
+                    </a>
+                    <a href="#art">
+                        <li>Art/Cultures</li>
+                    </a>
+                </ul>
+                
+            </div>
+            <div id="open_menu">
+                <i class="fa fa-bars" id="openmenu" onclick="showmenu()"></i>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div id="about">
+            <h1 class="headings">Prayagraj</h1>
+            <p class="content">Positioned along the sacred sangam, the confluence of three holy rivers - Ganga, Yamuna and the mystical Saraswati, the city of Prayagraj (once known as Allahabad), in Uttar Pradesh, is a popular pilgrimage destination for Hindus. One of the four holy cities that play host to the Kumbh Mela, probably the largest human congregation in the world, Prayagraj attracts devotees, holy men, tourists and photographers from all over the world. Millions of people arrive here during the Maha Kumbh that is held at sangam every 12 years and the Kumbh that is held every six years.
+                According to Hindu mythology, Lord Brahma chose a piece of land to perform Prakrishta Yajna (a fire ritual). The place he chose was where the three holy rivers – Ganga, Yamuna and Saraswati – merged with one another. Thus, the city, blessed by the gods, was named Teerthraj or Prayag. <br>
+                Prayagraj also had a prominent role in India's fight for independence, a legacy that lives on at two palatial mansions - Swaraj Bhawan and Anand Bhawan - the erstwhile residences of Motilal Nehru, the father of independent India's first Prime Minister,  Jawaharlal Nehru. Swaraj Bhawan was also the site of the beginning of Mahatma Gandhi’s non-violence movement in 1920. Today, both the buildings house museums that showcase invaluable artefacts from that time.
+               </p>
+        </div>
+        <div id="attractions">
+                <h1 class="headings">Popular in Prayagraj</h1>
+                <div class="attractions">
+                    <div class="attraction_boxes" style="height:30vw ;"><img src="../../Images/prayagrajattract-1.jpeg" alt=""><h3 class="attraction_heading">Sangam</h3><p class="attraction_content">Believed to be one of the holiest spots in the country, Triveni Sangam is the confluence of three sacred rivers - Ganga, Yamuna and the mystical Saraswati. Every 12 years, it turns into a venue for the Kumbh Mela.</p></div>
+                    <div class="attraction_boxes" style="height:30vw ;"><img src="../../Images/prayagrajattract-2.jpeg" alt=""><h3 class="attraction_heading">Kumbh Mela</h3><p class="attraction_content">Kumbh Mela is probably the largest human congregation in the world that takes place at the sacred Triveni Sangam, which is a confluence of three holy rivers - Ganga, Yamuna and mystical Saraswati.</p></div>
+                    <div class="attraction_boxes" style="height:30vw ;"><img src="../../Images/prayagrajattract-3.jpeg" alt=""><h3 class="attraction_heading">Prayagraj Fort(Allahabad Fort)</h3><p class="attraction_content">Of the several architectural marvels constructed under the commission of Mughal emperor Abkar, the Allahabad Fort is said to be the biggest.</p></div>
+                    <div class="attraction_boxes" style="height:30vw ;"><img src="../../Images/prayagrajattract-4.jpeg" alt=""><h3 class="attraction_heading">Ashoka Pillar</h3><p class="attraction_content">The 10.5-m-high Ashoka Pillar is one of the three attractions inside the Prayagraj Fort (earlier known as Allahabad Fort) that visitors are allowed to see.</p></div>
+                    <div class="attraction_boxes" style="height:30vw ;"><img src="../../Images/prayagrajattract-5.jpeg" alt=""><h3 class="attraction_heading">Patalpuri</h3><p class="attraction_content">Lying on the outskirts of Prayagraj, the Patalpuri Temple is among the most prominent spiritual sites in the city. A unique underground shrine, it houses idols of several gods and goddesses of the Hindu pantheon.</p></div>
+                    <div class="attraction_boxes" style="height:30vw ;"><img src="../../Images/prayagrajattract-6.jpeg" alt=""><h3 class="attraction_heading">Anand Bhawan</h3><p class="attraction_content">Once the residence of the Nehru family, it is said that the estate of Anand Bhawan was bought by Motilal Nehru, the father of the former Prime Minister Jawaharlal Nehru.</p></div>
+                </div>
+        </div>
+        <div id="cuisines">
+            <h1 class="headings">Cuisines</h1>
+            <div id="cuisines_boxes">
+                <div class="cuisines_boxes_1">
+                    <img src="../../Images/prayagrajfood-1.jpeg" alt="">
+                    <p class="cuisine_heading">Samosa</p>
+                    <img src="../../Images/prayagrajfood-2.jpeg" alt="">
+                    <p class="cuisine_heading">Rabri</p>
+                </div>
+                <div class="cuisines_boxes_2">
+                    <img src="../../Images/prayagrajfood-3.jpeg" alt="">
+                    <p class="cuisine_heading">Kachori</p>
+                </div>
+                <div class="cuisines_boxes_3">
+                    <img src="../../Images/prayagrajfood-4.jpeg" alt="">
+                    <p class="cuisine_heading">Dum Biryani</p>
+                    <img src="../../Images/prayagrajfood-5.jpeg" alt="">
+                    <p class="cuisine_heading">Dum Aloo</p>
+                </div>
+            </div>   
+        </div>
+        <div id="art" style="height: 55vw;">
+            <h1 class="headings">Art & Cultures</h1>
+            <div class="folkmusic_box">
+                <div id="folkmusic_boxes">
+                    <div class="attraction_boxesss" style="margin-top:2vw; width: 32vw;">
+                        <img src="../../Images/prayagrajart-1.jpeg" alt="" style="width:30vw; height:auto;">
+                        <h3 class="attraction_heading">Bade Hanuman Ji Temple</h3>
+                        <p class="attraction_content">Close to the Prayagraj Fort is another attraction  the Bade Hanumanji Temple. Also known as Lete Hanuman Temple, it enshrines a 20-ft-long idol of the deity, in a supine or reclining position.</p>
+                    </div>
+                    <div class="attraction_boxesss" style="margin-top:2vw; width: 32vw;">
+                        <img src="../../Images/prayagrajart-2.jpeg" alt="" style="width:30vw; height:auto;">
+                        <h3 class="attraction_heading">All Saints Cathedral (Patthar Girjaghar)</h3>
+                        <p class="attraction_content">The All Saints Cathedral, also known as Patthar Girjaghar or the Stone Church, is touted to be one of Asia's finest Anglican cathedrals. An imposing colonial structure,</p>
+                    </div>
+                    <div class="attraction_boxesss" style="margin-top:2vw; width: 32vw;">
+                        <img src="../../Images/prayagrajart-3.jpeg" alt="" style="width:30vw; height:auto;">
+                        <h3 class="attraction_heading">Sangam</h3>
+                        <p class="attraction_content">Believed to be one of the holiest spots in the country, Triveni Sangam is the confluence of three sacred rivers - Ganga, Yamuna and the mystical Saraswati. Every 12 years, it turns into a venue for the Kumbh Mela, one of the largest human congregations in the world.</p>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <footer>
+            <div class="foot">
+                <div class="logos">
+                    <a href="/"><img src="Images/logo1.svg" alt="logo"></a>
+                </div>
+                <div class="icons">
+                    <a href="https://www.facebook.com/incredibleindia" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/incredibleindia/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/incredibleindia/" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/incredibleindia" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                </div>
+            </div>
+            <div class="foot1">
+                <p>India has a myriad of landscapes, great heritage and culture, varied flora and fauna. The country is the most preferred tourist destinations for tourists from all across the world for its picturesque landscapes, spectacular waterfalls, habitat of the country's largest tiger reserve and home to the warmest people on earth.</p>
+                <hr>
+                <p style="font-size:1.5vw ;"><i class="fa fa-copyright"> Harshit Goel, Gourav Garg, Ayush Kumar Nishod</i></p>
+            </div>
+    </footer>
+    <script src="js/style.js"></script>
+</body>
+
+</html>

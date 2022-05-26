@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incredible India| Varanasi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:wght@200&family=Macondo&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Zen+Loop&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">   
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="nav_back">
+        <div class="nav">
+            <div class="logo">
+                <a href="/"><img src="Images/logo.svg" alt="logo"></a>
+            </div>
+            <div class="selectbox">
+                <select name="states" id="states" onchange="city()">
+                    <option value="">--Select State--</option>
+                    <option value="andaman">Andaman and Nicobar Islands</option>
+                    <option value="andhra">Andhra Pradesh</option>
+                    <option value="arunachal">Arunachal Pradesh</option>
+                    <option value="assam">Assam</option>
+                    <option value="bihar">Bihar</option>
+                    <option value="chandigarh">Chandigarh</option>
+                    <option value="chhattishgarh">Chhattishgarh</option>
+                    <option value="dadra">Dadra and Nagar Haveli</option>
+                    <option value="daman">Daman and Diu</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="goa">Goa</option>
+                    <option value="gujarat">Gujarat</option>
+                    <option value="haryana">Haryana</option>
+                    <option value="himachal">Himachal Pradesh</option>
+                    <option value="jammu">Jammu & Kashmir</option>
+                    <option value="jharkhand">Jharkhand</option>
+                    <option value="karnataka">Karnataka</option>
+                    <option value="kerala">Kerala</option>
+                    <option value="ladakh">Ladakh</option>
+                    <option value="lakshadweep">Lakshadweep</option>
+                    <option value="madhya">Madhya Pradesh</option>
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="manipur">Manipur</option>
+                    <option value="meghalaya">Meghalaya</option>
+                    <option value="mizoram">Mizoram</option>
+                    <option value="nagaland">Nagaland</option>
+                    <option value="odisha">Odisha</option>
+                    <option value="punjab">Punjab</option>
+                    <option value="rajasthan">Rajasthan</option>
+                    <option value="sikkim">Sikkim</option>
+                    <option value="tamil">Tamil Nadu</option>
+                    <option value="telangana">Telangana</option>
+                    <option value="tripura">Tripura</option>
+                    <option value="uttar">Uttar Pradesh</option>
+                    <option value="uttarakhand">Uttarakhand</option>
+                    <option value="west">West Bengal</option>
+                </select>
+                <select name="cities" id="cities" onchange="load()">
+                    <option value="home">--Select City--</option>
+                </select>  
+                <!-- <button id="btn">Go</button>  -->
+            </div>
+            <div class="items" id="nav_items">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <a href="#about">
+                        <li>About</li>
+                    </a>
+                    <a href="#attractions">
+                        <li>Attractions</li>
+                    </a>
+                    <a href="#cuisines">
+                        <li>Cuisines</li>
+                    </a>
+                    <a href="#art">
+                        <li>Art/Cultures</li>
+                    </a>
+                </ul>
+                
+            </div>
+            <div id="open_menu">
+                <i class="fa fa-bars" id="openmenu" onclick="showmenu()"></i>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div id="about">
+            <h1 class="headings">Varanasi</h1>
+            <p class="content">One of the oldest living inhabitations of the world, the sacred city of Varanasi or Benaras, nestled on the banks of the holy Ganges river, has been attracting pilgrims for centuries. Celebrated author Mark Twain, who visited India in the last decade of the 19th century, described the city as “older than history, older than tradition, older even than legend.”
+
+                Believed to be the abode of Lord Shiva, Varanasi is among the seven sacred cities in the country. Centuries of history, art and tradition have conflated to add colourful layers to Varanasi's aura, which is most spectacularly evident at its ghats (stepped banks of a river). An abode of travellers in search of holiness and divine providence, the ghats of the Ganges are the highlight of the spiritual scene of Varanasi. From the famous Ganga arti (a fire ritual) to cremation ceremonies, the ghats are the site of time-honoured rituals that are performed to this day.
+                
+                Legend has it that Lord Shiva channelled the celestial Ganga on earth, and that is why the river is considered holy. Thousands of devotees from all over the country come to bathe in its waters as it is believed that taking a dip in the holy Ganges absolves one of their sins. It is also believed that those cremated here achieve moksha (salvation). For many, the sacred Kashi Yatra (pilgrimage to Kashi, as Varanasi was earlier called) is one of the most important rituals to undertake during their lifetime.
+                
+                In recent years, the city has turned into a purveyor of philosophy, yoga, the ancient medicinal science of Ayurveda, and astrology. 
+               </p>
+        </div>
+        <div id="attractions">
+                <h1 class="headings">Popular in Varanasi</h1>
+                <div class="attractions">
+                    <div class="attraction_boxes" style="height:31vw ;"><img src="../../Images/varanasiattract-1.jpeg" alt=""><h3 class="attraction_heading">Banaras Hindu University</h3><p class="attraction_content">The Banaras Hindu University (BHU) is one of the oldest universities in India. It was founded by renowned social reformer Pandit Madan Mohan Malaviya, in 1916, with the assistance of British socialist Dr Annie Besant.</p></div>
+                    <div class="attraction_boxes" style="height:31vw ;"><img src="../../Images/varanasiattract-2.jpeg" alt=""><h3 class="attraction_heading">Dashashwamedh Ghats</h3><p class="attraction_content">One of the oldest and the most sacred ghats in the holy city of Varanasi is Dashashwamedh. This place is most famous for its Ganga arti ( a holy fire ritual), which is an elaborate and lively ceremony that takes place at dusk everyday.</p></div>
+                    <div class="attraction_boxes" style="height:31vw ;"><img src="../../Images/varanasiattract-3.jpeg" alt=""><h3 class="attraction_heading">Vishwanath Mandir</h3><p class="attraction_content">The most popular attractions in Varanasi, the Vishwanath Mandir, also known as Kashi Vishwanath Temple, is dedicated to Lord Shiva, the presiding god of the city. Also referred to as the golden temple, due to its gold-plating.</p></div>
+                    <div class="attraction_boxes" style="height:31vw ;"><img src="../../Images/varanasiattract-4.jpeg" alt=""><h3 class="attraction_heading">Chandra Prabha Wildlife Sanctuary</h3><p class="attraction_content">Spread over an area of 78 sq km in the Vindhya mountains, the forest of the Chandra Prabha Wildlife Sanctuary has been named after the Chandraprabha river, which means the luminescence of moon.</p></div>
+                    <div class="attraction_boxes" style="height:31vw ;"><img src="../../Images/varanasiattract-5.jpeg" alt=""><h3 class="attraction_heading">Manikarnika Ghat</h3><p class="attraction_content">One of the most auspicious and sacred ghats of the Hindus, Manikarnika is a significant ground for cremation. It is located between Dashashwamedh Ghat and Scindia Ghat.</p></div>
+                    <div class="attraction_boxes" style="height:31vw ;"><img src="../../Images/varanasiattract-6.jpeg" alt=""><h3 class="attraction_heading">Sarnath</h3><p class="attraction_content">One of the most revered Buddhist pilgrimage centres in the world, Sarnath, is located just 10 km away from Varanasi. It is believed that after attaining nirvana (enlightenment).</p></div>
+                </div>
+        </div>
+        <div id="cuisines">
+            <h1 class="headings">Cuisines</h1>
+            <div id="cuisines_boxes">
+                <div class="cuisines_boxes_1">
+                    <img src="../../Images/varanasifood-1.jpeg" alt="">
+                    <p class="cuisine_heading">Baati Chokha</p>
+                    <img src="../../Images/varanasifood-2.jpeg" alt="">
+                    <p class="cuisine_heading">Lassi</p>
+                </div>
+                <div class="cuisines_boxes_2">
+                    <img src="../../Images/varanasifood-3.jpeg" alt="">
+                    <p class="cuisine_heading">Kachori</p>
+                </div>
+                <div class="cuisines_boxes_3">
+                    <img src="../../Images/varanasifood-4.jpeg" alt="">
+                    <p class="cuisine_heading">Chaat</p>
+                    <img src="../../Images/varanasifood-5.jpeg" alt="">
+                    <p class="cuisine_heading">Banarasi Paan</p>
+                </div>
+            </div>   
+        </div>
+        <div id="art" style="height: 55vw;">
+            <h1 class="headings">Art & Cultures</h1>
+            <div class="folkmusic_box">
+                <div id="folkmusic_boxes">
+                    <div class="attraction_boxesss" style="margin-top:2vw; width: 32vw;">
+                        <img src="../../Images/varanasiart-1.jpeg" alt="" style="width:30vw; height:auto;">
+                        <h3 class="attraction_heading">Ganga Aarti</h3>
+                        <p class="attraction_content">Refresh your mind and soul by a unforgetable experience of witnessing Ganga Aarti</p>
+                    </div>
+                    <div class="attraction_boxesss" style="margin-top:2vw; width: 32vw;">
+                        <img src="../../Images/varanasiart-2.jpeg" alt="" style="width:30vw; height:auto;">
+                        <h3 class="attraction_heading">Cruise Ride</h3>
+                        <p class="attraction_content">Refresh youself by a ride in cruise and boats.</p>
+                    </div>
+                    <div class="attraction_boxesss" style="margin-top:2vw; width: 32vw;">
+                        <img src="../../Images/varanasiart-3.jpeg" alt="" style="width:30vw; height:auto;">
+                        <h3 class="attraction_heading">Wooden Toys</h3>
+                        <p class="attraction_content">Wooden toys are one of the traditional handicrafts of the city of Varanasi. Since the city is considered sacred, most of these toys are made in the form of deities along with birds and animals.</p>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <footer>
+            <div class="foot">
+                <div class="logos">
+                    <a href="/"><img src="Images/logo1.svg" alt="logo"></a>
+                </div>
+                <div class="icons">
+                    <a href="https://www.facebook.com/incredibleindia" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/incredibleindia/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/incredibleindia/" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/incredibleindia" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                </div>
+            </div>
+            <div class="foot1">
+                <p>India has a myriad of landscapes, great heritage and culture, varied flora and fauna. The country is the most preferred tourist destinations for tourists from all across the world for its picturesque landscapes, spectacular waterfalls, habitat of the country's largest tiger reserve and home to the warmest people on earth.</p>
+                <hr>
+                <p style="font-size:1.5vw ;"><i class="fa fa-copyright"> Harshit Goel, Gourav Garg, Ayush Kumar Nishod</i></p>
+            </div>
+    </footer>
+    <script src="js/style.js"></script>
+</body>
+
+</html>
