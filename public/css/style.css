@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* font-size: 110%; */
+    overflow-x: hidden;
+}
+
+.nav_back {
+    width: 100vw;
+    height: 13vh;
+    background-color: rgb(86 190 228 / 35%);
+    border-radius: 0px 0px 50px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(54 151 181 / 71%);
+    position: relative;
+    top: 0;
+    border-radius: 0px 0px 70px 70px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo {
+    width: 20vw;
+    justify-content: left;
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+.logo img {
+    width: 60%;
+    position: relative;
+    left: 5vw;
+    top: 1vh;
+}
+
+.selectbox{
+    /* border: 2px solid black; */
+    width: 33vw;
+    display: flex;
+}
+
+#states{
+    border-radius: 4px;
+    padding: 6px;
+    margin: 3px;
+    width: 46vw;
+}
+#cities{
+    border-radius: 4px;
+    padding: 6px;
+    margin: 3px;
+    width: 46vw;
+}
+#btn{
+    border-radius: 4px;
+    padding: 6px;
+    margin: 3px;
+    cursor: pointer;
+    width: 8vw;
+}
+.items {
+    /* border: 2px solid red; */
+    /* justify-content: right; */
+    width: 43vw;
+}
+
+
+.items ul {
+    justify-content: right;
+    margin: 0px 2vw 0px 0px;
+    /* width: 55%; */
+    /* border: 2px solid red; */
+    display: flex;
+    /* position: absolute;
+    top: 1vh;
+    right: 1vw; */
+}
+
+.items ul li {
+    margin: 10px;
+    /* padding: 10px; */
+    list-style-type: none;
+    font-size: 2.3vw;
+    font-weight: bold;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+}
+
+.items ul a {
+    text-decoration: none;
+}
+
+.items ul a :hover {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 30px;
+    padding: 3px;
+    border: 2px solid black;
+}
+.items .fa{
+    display: none;
+}
+#open_menu .fa{
+    display: none;
+}
+
+@media(max-width:1000px) {
+    .items{
+        position: absolute;
+        background-color: rgb(54, 151, 181);
+        height: 100vh;
+        width: 35vw;
+        right: 0px;
+        top: 0;
+        bottom: 0;
+        transition: 5s;
+        display: none;
+    }
+    .items ul {
+        flex-direction: column;
+        position: absolute;
+        right: 10vw;
+        color: white;
+        /* margin: 0px 0px 0px 50px; */
+        /* background-color: red; */
+    }
+    .items ul li{
+        padding: 5px 0px 5px 20px;
+        font-size: 4vw;
+        /* margin: 3px 0px 3px 50px; */
+        /* background-color: black; */
+        z-index: 2;
+    }
+    .items .fa{
+        display: block;
+        font-size: 40px;
+        color: white;
+        margin: 10px;
+        cursor: pointer;
+    }
+    #open_menu{
+        background-color: red;
+        z-index: 2;
+    }
+    #open_menu .fa{
+        display: block;
+        font-size: 40px;
+        color: white;
+        margin: 10px;
+        cursor: pointer;
+        position: absolute;
+        right: 40px;
+        top: 10px;
+        z-index: 1;
+    }
+    footer{
+        height: 45vw;
+    }
+    footer .foot{
+        margin-bottom: 0;
+        height: 20vw;
+    }
+    /* footer .foot1{
+        height: 25vw;
+    } */
+    footer .foot_back{
+        height: 45vw;
+    }
+    .folkmusic_box{
+        height: 40vw;
+    }
+    #art_boxes{
+        height: 400vh;
+    }
+}
+/* @media(max-widht:550px){
+    .selectbox{
+        flex-direction: column;
+    }
+} */
+
+.body {
+    /* background-color: green; */
+    width: 100vw;
+}
+
+#video_box {
+    margin: auto;
+    width: 100vw;
+    /* height: 80vh; */
+    background-color:black;
+}
+
+#video {
+    /* width: 90vw; */
+    height: 41vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.headings {
+    font-size: 4.8vw;
+    font-family: 'Macondo', cursive;
+    text-decoration: wavy;
+    /* margin: 0px 30px 0px 45vw; */
+    text-align: center;
+    /* background-color: blue; */
+}
+
+#about {
+    width: 100vw;
+    background-color: rgba(240, 248, 255, 0.566);
+    /* padding: 10px; */
+}
+
+.content {
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 6px 50px 6px 50px;
+    /* background-color: forestgreen; */
+    line-height: 3vw;
+    font-family: 'Zen Loop', cursive;
+    box-sizing: border-box;
+}
+
+#attractions {
+    width: 100vw;
+}
+
+.popular_images {
+    width: 100vw;
+    /* background-color: green; */
+}
+
+.popular_images img {
+    /* width: 90vw; */
+    height: 35vw;
+    /* background-color: red; */
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    transition: 1s;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.attractions {
+    width: 100vw;
+    display: flex;
+    background-color: rgb(86 190 228 / 35%);
+    height: 40vw;
+}
+
+.attraction_boxes {
+    background-color: floralwhite;
+    width: 16vw;
+    height: 45vw;
+    margin: 5vw 2px 10px 2px;
+    border: 1.7px solid black;
+    border-radius: 40px;
+    padding: 30px 0px 10px 0px;
+}
+
+.attraction_boxes img {
+    width: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attraction_boxees {
+    background-color: floralwhite;
+    width: 16vw;
+    height: 25vw;
+    margin: 5vw 2px 10px 2px;
+    border: 1.7px solid black;
+    border-radius: 40px;
+    padding: 30px 0px 10px 0px;
+}
+
+.attraction_boxees img {
+    width: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attraction_boxess {
+    background-color: floralwhite;
+    width: 24vw;
+    height: 31vw;
+    margin: 5vw 2px 10px 2px;
+    border: 1.7px solid black;
+    border-radius: 40px;
+    padding: 30px 0px 10px 0px;
+}
+
+.attraction_boxess img {
+    width: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attraction_boxesss {
+    background-color: floralwhite;
+    width: 24vw;
+    height: 31vw;
+    margin: 5vw 2px 10px 2px;
+    border: 1.7px solid black;
+    border-radius: 40px;
+    padding: 30px 0px 10px 0px;
+}
+
+.attraction_boxesss img {
+    width: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attraction_content {
+    font-size: 2vw;
+    font-family: 'Zen Loop', cursive;
+    text-align: center;
+}
+
+.attraction_heading {
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: 'Zen Loop', cursive;
+}
+#cuisines{
+    /* background-color: red; */
+    height: 60vw;
+}
+#cuisines_boxes{
+    width: 100vw;
+    display: flex;
+    /* background-color: red; */
+    ;
+    height: 60vw;
+}
+.cuisines_boxes_1{
+    /* background-color:blue; */
+    position: relative;
+    left: 5vw;
+    /* width: 19.3vw; */
+    margin: 0px 2px 10px 2px;
+    /* border: 2px solid black; */
+    /* border-radius: 40px; */
+    padding: 0px 0px 10px 0px;
+}
+.cuisines_boxes_1 img{
+    width: 25vw;
+    height: 20vw;
+    margin: 0px 10px 5px 0px;
+    border-radius: 20px;
+    border: 2px solid black;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+.cuisines_boxes_3{
+    position: relative;
+    /* background-color: green; */
+    right: -12vw;
+    /* width: 19.3vw; */
+    margin: 0px 2px 10px 2px;
+    padding: 0px 0px 10px 0px;
+}
+.cuisines_boxes_3 img{
+    width: 25vw;
+    height: 20vw;
+    margin: 0px 10px 5px 0px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.cuisines_boxes_2{
+    position: relative;
+    left: 8.5vw;
+    padding: 11vw 0px 20px 0px;
+    /* background-color: aqua; */
+}
+.cuisines_boxes_2 img{
+    width: 30vw;
+    height: 20vw;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.cuisine_heading{
+    font-size: 2.5vw;
+    text-align:center;
+    font-weight: bold;
+    font-family: 'Zen Loop', cursive;
+}
+/* <<<<<<< HEAD */
+#art{
+    width: 100vw;
+}
+#art_boxes{
+    width: 100vw;
+    height: 160vw;
+    background-color:rgb(86 190 228 / 35%);
+}
+#dance_boxes{
+    width: 100vw;
+    display: flex;
+    /* background-color: red; */
+}
+#dance_boxes img{
+    width: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#folkmusic_boxes{
+    width: 100vw;
+    display: flex;
+}
+
+#folkmusic_boxes img{
+    width: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    width: 100vw;
+    background-color:rgb(18, 46, 91) ;
+    height: 25vw;
+}
+.footer_back{
+    width: 100vw;
+    /* background-color:rgba(86, 190, 228, 0.838) ; */
+    /* height: 10vw; */
+}
+footer .foot{
+    display: flex;
+    height: 10vw;
+}
+
+footer .logo{
+    /* background-color: aqua; */
+    /* padding: 10px; */
+    width: 15vw;
+    margin-top: 50px;
+}
+footer .logo img{
+    width: 15vw;
+}
+footer .icons{
+    position: absolute;
+    right: 7vw;
+    margin-top: 50px;
+}
+footer .icons .fa{
+    color: white;
+    font-size: 2.5vw;
+    margin: 10px;
+}
+footer .foot1 p{
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+    padding-left: 20px;
+    padding-right: 30px;
+}
