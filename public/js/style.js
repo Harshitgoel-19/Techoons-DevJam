@@ -1,3 +1,4 @@
+alert("For demo purpose switching between main page and lucknow,varanasi and prayagraj is working.");
 let image = document.getElementById("images");
 let images = [
   "Images/image1.jpg",
