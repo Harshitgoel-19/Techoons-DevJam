@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -38,7 +38,7 @@ html {
 }
 
 .logo img {
-    width: 60%;
+    width: 80%;
     position: relative;
     left: 5vw;
     top: 1vh;
@@ -412,45 +412,6 @@ html {
 /* <<<<<<< HEAD */
 #art{
     width: 100vw;
-<<<<<<< HEAD:style.css
-}
-#art_boxes{
-    width: 100vw;
-    height: 200vh;
-    background-color:rgb(86 190 228 / 35%);
-}
-#dance_boxes{
-    width: 100vw;
-    display: flex;
-    /* background-color: red; */
-}
-#dance_boxes img{
-    width: 15vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-footer{
-    width: 100vw;
-    background-color:rgb(18, 46, 91) ;
-    height: 15vw;
-}
-.footer_back{
-    width: 100vw;
-    background-color:rgba(86, 190, 228, 0.838) ;
-    height: 15vw;
-}
-footer .foot{
-    display: flex;
-}
-footer .logo{
-    /* background-color: aqua; */
-    /* padding: 10px; */
-    width: 15vw;
-    margin-top: 10px;
-}
-footer .logo img{
-=======
     background-color:rgb(86 190 228 / 35%);
 }
 #art_boxes{
@@ -512,17 +473,12 @@ footer .logos{
     margin-left: 8vw;
 }
 footer .logos img{
->>>>>>> testing:public/css/style.css
     width: 15vw;
 }
 footer .icons{
     position: absolute;
     right: 7vw;
-<<<<<<< HEAD:style.css
-    margin-top: 10px;
-=======
     margin-top: 50px;
->>>>>>> testing:public/css/style.css
 }
 footer .icons .fa{
     color: white;
@@ -534,10 +490,7 @@ footer .foot1 p{
     text-align: center;
     color: white;
     font-size: 1vw;
-<<<<<<< HEAD:style.css
-=======
     height: 8vw;
->>>>>>> testing:public/css/style.css
     padding-left: 20px;
     padding-right: 30px;
 }
